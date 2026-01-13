@@ -25,7 +25,7 @@ func EmptyArry() -> Int {
 }
 
 func updateArray(upc : String) -> Int {
-    let newItem = "new item to add"
+    var newItem = "new item to add"
     existingArray.append(upc)
     UserDefaults.standard.set(existingArray, forKey: key)
     print(existingArray)
@@ -37,7 +37,7 @@ struct ScanResultView: View {
     
     var body: some View {
        // let b = EmptyArry()
-        let a = updateArray(upc: code)
+        var a = updateArray(upc: code)
         VStack(spacing: 20) {
             Text("Scanned Code, Item added to Impact tab")
                 .font(.title)

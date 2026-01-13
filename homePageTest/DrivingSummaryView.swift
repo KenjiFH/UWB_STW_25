@@ -106,3 +106,6 @@ struct ChartData {
     var distance: Double
     var date: Date
 }
+
+
+

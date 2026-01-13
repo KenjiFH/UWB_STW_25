@@ -29,7 +29,7 @@ class DrivingTracker: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     
     struct Trip: Codable, Identifiable {
-        let id = UUID()
+        var id = UUID()
         let date: Date
      
         let distance: Double
@@ -114,3 +114,5 @@ class DrivingTracker: NSObject, ObservableObject, CLLocationManagerDelegate {
         lastLocation = newLocation
     }
 }
+
+
