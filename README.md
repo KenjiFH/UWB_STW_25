@@ -1,5 +1,5 @@
-#**Our hackathon Project from UWBHACKS spring 2025**
+# **Our hackathon Project from UWBHACKS spring 2025**
 
-##not too shabby for 2 days and 0 prior IOS dev experience
+## not too shabby for 2 days and 0 prior IOS dev experience
 
-###foucuses on tracking carbon emissons and food waste using AVfoundation for barcode scanning, Coremotion for vechicle tracking, and UIkit for visuals
+### foucuses on tracking carbon emissons and food waste using AVfoundation for barcode scanning, Coremotion for vechicle tracking, and UIkit for visuals
